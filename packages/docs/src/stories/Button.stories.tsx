@@ -2,7 +2,7 @@ import { Button, ButtonProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
 
   args: {
@@ -10,4 +10,4 @@ export default {
   }
 } as Meta
 
-export const Primary: StoryObj = {}
+export const Primary: StoryObj<ButtonProps> = {}
