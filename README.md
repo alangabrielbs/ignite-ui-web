@@ -1,5 +1,7 @@
 ```
 packages/
+  ├── docs
+  ├── eslint-config
   ├── react
   ├── tokens
   └── ts-config
