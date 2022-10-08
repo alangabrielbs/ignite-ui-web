@@ -17,9 +17,8 @@ jobs:
         with:
           node-version: 16
 
-      - run: npm ci
-
-      - run: npm run build
+      - name: Yarn CI
+        run: yarn install --frozen-lockfile
 
       - name: Deploy Storybook
         working-directory: ./packages/docs/
