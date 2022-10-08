@@ -20,8 +20,9 @@ packages/
 ## Components
 
 - [ ] Button
+- [x] Box
 - [ ] Heading
-- [ ] Text
+- [X] Text
 - [ ] TextInput
 - [ ] Textarea
 - [ ] Checkbox
