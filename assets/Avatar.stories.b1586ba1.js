@@ -1,0 +1,2 @@
+import{A as a}from"./index.e385b03a.js";import"./index.026ecd65.js";import"./iframe.9fd86130.js";import"./index.ad055d2d.js";import"./jsx-runtime.345cb982.js";const m={title:"Data display/Avatar",component:a,args:{src:"https://github.com/alangabrielbs.png",alt:"Avatar"}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories.b1586ba1.js.map
