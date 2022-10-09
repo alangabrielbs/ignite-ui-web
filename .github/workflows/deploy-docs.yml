@@ -20,6 +20,8 @@ jobs:
       - name: Yarn CI
         run: yarn install --frozen-lockfile
 
+      - run: yarn build
+
       - name: Deploy Storybook
         working-directory: ./packages/docs
         run: yarn deploy-storybook --ci --existing-output-dir=storybook-static
